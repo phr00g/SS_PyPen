@@ -73,7 +73,7 @@ def main():
     print("The HTTP header is " , resp_header , " ")
 
     #invokes subdirectory busting function on target
-    #robot_check(fixed_name)
+    robot_check(fixed_name)
 
     port_scanner(ip)
 
